@@ -47,7 +47,7 @@ input[type=text], input[type=number] {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     padding: 5px;
-    width: 400px;
+    width: 375px;
 }
 
 #form-button {

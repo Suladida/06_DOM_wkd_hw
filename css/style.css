@@ -19,3 +19,13 @@ body > ul {
     padding: 50px;
     box-shadow: 10px 10px 10px rgba(0,0,0, .5);
 }
+
+.form-item {
+    width: 200px;
+    clear: both;
+}
+
+.form-item input {
+    width: 100%;
+    clear: both;
+}

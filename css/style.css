@@ -32,11 +32,22 @@ body > ul {
     clear: both;
 }
 
+/* FORM STYLES */
+input[type=text], input[type=number] {
+    background-color: royalblue;
+}
+
+#form-button {
+    background-color: rgb(114, 218, 250);
+    margin-top: 10px;
+}
+
+
 .del-button {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 8px;
     padding: 5px 10px;
     background-color: purple;
     color: black;
-
 }
+

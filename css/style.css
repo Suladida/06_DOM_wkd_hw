@@ -14,11 +14,11 @@ body > ul {
 }
 
 .show_item {
-    background-color: purple;
+    background-color: rgb(60, 146, 196);
     margin-right: 30px;
     border-radius: 15px;
     padding: 50px;
-    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+    box-shadow: 5px 5px 5px rgba(0,0,0, .5);
 }
 
 .form-item {
@@ -29,4 +29,12 @@ body > ul {
 .form-item input {
     width: 100%;
     clear: both;
+}
+
+.del-button {
+    border-radius: 8px;
+    padding: 5px 5px;
+    background-color: purple;
+    color: white;
+
 }

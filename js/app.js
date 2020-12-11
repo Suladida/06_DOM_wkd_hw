@@ -1,16 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+    // FORM:
     // grab form 
     const showForm = document.querySelector('#new-show-form');
     showForm.addEventListener('submit', handleFormSubmit);
     
+
+
     // DELETE BUTTON:
     // grab the body to add the delete button to
     const body = document.querySelector('body');
 
     // create delete button 
     const deleteButton = document.createElement('button');
-    deleteButton.textContent = '⛔️ I HATE ALL THESE SHOWS NOW FOR SOME REASON ';
+    deleteButton.textContent = 'I HATE ALL THESE SHOWS NOW FOR SOME REASON';
+    deleteButton.classList.add('del-button'); // ADDED
+
 
     // add event listener for button 
     deleteButton.addEventListener('click', handleDeleteButton);
@@ -18,8 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // add the delete button to the body
     body.appendChild(deleteButton);
 
+
 });
 
+
+
+// FUNCTIONS:
 
 const handleFormSubmit = function(event) {
     event.preventDefault();

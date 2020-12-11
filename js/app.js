@@ -49,10 +49,11 @@ const handleFormSubmit = function(event) {
     const review = event.target.review.value;
     console.log(title, released, seasons, review);
 
-    // create list item element
+    // create list item elements
 
     const newListItemTitle = document.createElement('li');
-    newListItemTitle.textContent = `TITLE: ${title}`;
+    uppercaseTitle = title.toUpperCase();
+    newListItemTitle.textContent = `${uppercaseTitle}`;
     const newListItemReleased = document.createElement('li');
     newListItemReleased.textContent = `RELEASED: ${released}`;
     const newListItemSeasons = document.createElement('li');

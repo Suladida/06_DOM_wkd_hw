@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // create delete button 
     const deleteButton = document.createElement('button');
-    deleteButton.textContent = 'I HATE ALL THESE SHOWS NOW FOR SOME REASON';
+    deleteButton.textContent = 'I HATE ALL OF THESE SHOWS NOW FOR SOME REASON';
     deleteButton.classList.add('del-button'); // ADDED
 
 

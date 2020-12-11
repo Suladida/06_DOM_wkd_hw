@@ -44,6 +44,9 @@ const handleFormSubmit = function(event) {
     const newListItemReview = document.createElement('li');
     newListItemReview.textContent = review;
 
+    // reset form after submission 
+    document.querySelector('#new-show-form').reset();
+
     // append the li items in the div
     div.appendChild(newListItemTitle);
     div.appendChild(newListItemReleased);

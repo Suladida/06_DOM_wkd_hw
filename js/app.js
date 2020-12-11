@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // create delete button 
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'I HATE ALL OF THESE SHOWS NOW FOR SOME REASON';
-    deleteButton.classList.add('del-button'); // ADDED
+    deleteButton.classList.add('del-button'); 
 
 
     // add event listener for button 
@@ -53,13 +53,18 @@ const handleFormSubmit = function(event) {
 
     const newListItemTitle = document.createElement('li');
     uppercaseTitle = title.toUpperCase();
+    newListItemTitle.classList.add('show_title');
     newListItemTitle.textContent = `${uppercaseTitle}`;
+
     const newListItemReleased = document.createElement('li');
     newListItemReleased.textContent = `RELEASED: ${released}`;
+
     const newListItemSeasons = document.createElement('li');
-    newListItemSeasons.textContent = `SEASONS: ${seasons}`;
+    newListItemSeasons.textContent = `SEASON(S): ${seasons}`;
+
     const newListItemReview = document.createElement('li');
-    newListItemReview.textContent = `REVIEW: ${review}`;
+    newListItemReview.classList.add('show_review');
+    newListItemReview.textContent = `${review}`;
 
     // reset form after submission 
     document.querySelector('#new-show-form').reset();

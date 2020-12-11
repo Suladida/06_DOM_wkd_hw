@@ -15,14 +15,18 @@ body > ul {
     flex-wrap: wrap-reverse;
 }
 
+li {
+    margin: 10px;
+}
+
 .show_item {
     background-color: rgb(60, 146, 196);
     margin-right: 30px;
     margin-bottom: 30px;
     border-radius: 15px;
-    padding: 50px;
+    padding: 35px;
     box-shadow: 5px 5px 5px rgba(0,0,0, .5);
-    max-width: 250px;
+    max-width: 150px;
 }
 
 .form-item {
@@ -57,7 +61,7 @@ input[type=text], input[type=number] {
     margin-top: 10px;
     border-radius: 10px;
     padding: 5px 10px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 

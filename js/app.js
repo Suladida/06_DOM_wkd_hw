@@ -57,7 +57,7 @@ const handleFormSubmit = function(event) {
     newListItemTitle.textContent = `${uppercaseTitle}`;
 
     const newListItemReleased = document.createElement('li');
-    newListItemReleased.textContent = `RELEASED: ${released}`;
+    newListItemReleased.textContent = `YEAR: ${released}`;
 
     const newListItemSeasons = document.createElement('li');
     newListItemSeasons.textContent = `SEASON(S): ${seasons}`;

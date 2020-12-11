@@ -9,8 +9,41 @@
 </head>
 <body>
     <!-- form details go here -->
-<h1>Hello</h1>
-<p>WASSUPPPPPP</p>
+<h1>Cool Animations List</h1>
+
+Add a new animation:
+<br><br>
+
+<form id ="new-show-form">
+    <div id = "form-wrapper">
+
+        <div class ="form-item">
+            <label for="title" class ="primary">Title:</label>
+            <input type ="text" id="title" required/>
+        </div>
+
+        <div class ="form-item">
+            <label for="released" class ="primary">Released:</label>
+            <input type ="text" id="released" required/>
+        </div>
+
+        <div class ="form-item">
+            <label for="seasons" class ="primary">Seasons:</label>
+            <input type ="number" id="seasons" required/>
+        </div>
+
+        <div class ="form-item">
+            <label for="review" class ="primary">Review:</label>
+            <input type ="text" id="review" required/>
+        </div>
+    </div>
+    <input type="submit" value ="save"/>
+</form>
+
+
+
+
+
     <!-- list goes here -->
 </body>
 </html>

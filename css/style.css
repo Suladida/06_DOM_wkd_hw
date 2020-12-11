@@ -36,6 +36,15 @@ input[type=text], input[type=number] {
     background-color: royalblue;
     color: rgb(9, 255, 255);
     font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
+
+.form-item textarea {
+    background-color: rgb(122, 156, 248);
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    width: 400px;
 }
 
 #form-button {

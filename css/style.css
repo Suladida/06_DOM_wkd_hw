@@ -6,3 +6,16 @@ body {
 body > h1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
+body > ul {
+    list-style: none;
+    display: flex;
+}
+
+.show_item {
+    background-color: purple;
+    margin-right: 30px;
+    border-radius: 15px;
+    padding: 50px;
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+}

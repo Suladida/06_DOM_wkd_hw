@@ -52,13 +52,13 @@ const handleFormSubmit = function(event) {
     // create list item element
 
     const newListItemTitle = document.createElement('li');
-    newListItemTitle.textContent = title;
+    newListItemTitle.textContent = `TITLE: ${title}`;
     const newListItemReleased = document.createElement('li');
-    newListItemReleased.textContent = released;
+    newListItemReleased.textContent = `RELEASED: ${released}`;
     const newListItemSeasons = document.createElement('li');
-    newListItemSeasons.textContent = seasons;
+    newListItemSeasons.textContent = `SEASONS: ${seasons}`;
     const newListItemReview = document.createElement('li');
-    newListItemReview.textContent = review;
+    newListItemReview.textContent = `REVIEW: ${review}`;
 
     // reset form after submission 
     document.querySelector('#new-show-form').reset();
